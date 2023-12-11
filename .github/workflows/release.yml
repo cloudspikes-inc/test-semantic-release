@@ -27,4 +27,6 @@ jobs:
       - name: Semantic Release
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
-        run: npx semantic-release
+        run: |
+          # npx semantic-release
+          npx semantic-release --no-ci -r .
