@@ -22,11 +22,11 @@ jobs:
         with:
           node-version: '21.4.0'
 
-      - name: Install Dependencies
-        run: |
-          npm --version
-          node --version
-          npm install
+      # - name: Install Dependencies
+      #   run: |
+      #     npm --version
+      #     node --version
+      #     npm install
 
       - name: Semantic Release
         env:
