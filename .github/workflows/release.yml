@@ -19,7 +19,10 @@ jobs:
           node-version: '20.6.1'
 
       - name: Install Dependencies
-        run: npm install
+        run: |
+          npm --version
+          node --version
+          npm install
 
       - name: Semantic Release
         env:
