@@ -1,4 +1,5 @@
 #!/bin/sh
+
 echo "Hello world"
 
 url="https://github.com/cloudspikes-inc/test-semantic-release/releases/tag/v1.0.234"
