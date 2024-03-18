@@ -14,4 +14,3 @@ if curl --output /dev/null --silent --head --fail $url; then
 else
   echo "$DEVOPS_VERSION is not a valid release or tag."
 fi
-
